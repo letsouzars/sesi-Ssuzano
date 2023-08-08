@@ -5,6 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+ @font-face {
+    font-family: 'Roboto Black';
+    src: url(Roboto-Black.ttf);
+ }
+
 
 body {
     font-family: 'Bebas Neue';
@@ -22,6 +27,7 @@ header {
     position: fixed;
     width: 100vw;
     z-index: 99;
+
 }
 
 .conteudo-header {
@@ -48,6 +54,7 @@ header {
     text-transform: uppercase;
     font-size: 1.25em;
     transition: 0.5s;
+   
 }
 
 .menu-header a:hover:not(.botao) {
@@ -57,13 +64,13 @@ header {
 }
 
 .botao{
-    background-color: #A259F7;
+    background-color: #ce0303;
     height: 45px;
     width: 150px;
     text-align: center;
     line-height: 47px;
-    font-size: 1.5em !important;
-    border: solid 1px #080324;
+    
+   
 }
 
 .botao:hover{
@@ -106,7 +113,7 @@ h1 {
 }
 
 .linha-amarela {
-    border: solid 1px #FFAF00;
+    border: solid 1px #3b34f9;
 }
 
 .titulo-senai {
@@ -156,7 +163,7 @@ h1 {
 }
 
 .conteudo-sobre h3 {
-    color: #FFAF00;
+    color: #3b34f9;
     font-size: 45px;
     font-weight: 500;
 }
@@ -192,10 +199,10 @@ h1 {
 }
 
 .card-info p {
-    color: #A259F7;
+    color: #3b34f9;
     font-size: 22px;
     font-weight: 600;
-    border: solid 2px #A259F7;
+    border: solid 2px #3b34f9;
     width: 250px;
     padding: 30px 0;
     text-align: center;
@@ -213,16 +220,16 @@ h1 {
 }
 
 .conteudo-endereco h2 {
-    color: #FFAF00;
+    color:#3b34f9;
     font-size: 50px;
     font-weight: 500;
 }
 
 .texto-endereco {
-    color: #A259F7;
+    color:#3b34f9;
     font-family: 'Courier New', Courier, monospace;
     background-color: #010010;
-    border: solid 2px #A259F7;
+    border: solid 2px ;
     padding: 55px 55px;
 }
 
