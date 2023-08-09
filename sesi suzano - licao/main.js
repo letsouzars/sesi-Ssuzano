@@ -1,6 +1,6 @@
 
 function mostrarMenu() {
-    var menu = document.getElementById('nav-header');
+    var menu = document.getElementById('menu-header');
     var icone = document.getElementById('icone');
 
     if (getComputedStyle(menu).display == 'none') {
